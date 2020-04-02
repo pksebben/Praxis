@@ -1,0 +1,17 @@
+Praxis planning and roadmapping.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+There are going to be challenges in making this thing both comprehensive and useful.  Scalability is going to be an issue.
+
+How is the project segmented?
+--------------------
+Learners should be exposed to the most relevant information.  This information should be provided by their peers and their peers' knowledge of the resources out there.  One of the most important functions of this system is that it connects you to who can help, and hides who can't.
+
+There are some options here:
+
+
+In order to maintain scalability, The project should be decentralized.
+What I am picturing is a set of people who leave breadcrumbs - git repositories that represent a learning track.  They then pass these off to someone else, who goes through the program and improves it as they go along, adding to the breadcrumb.  They, in turn, pass it off to others.  Should one of these fork and fork and fork, there should be a mechanism for remerging.
+
+These breadcrumbs will all be aggregated in the central git, and anyone who wishes to start a crumb may do so.
+
+The 

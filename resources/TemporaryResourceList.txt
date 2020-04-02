@@ -1,3 +1,52 @@
+Math resources
+---------------
+TODO: These resources need to be studied for structure and viability and annotated.
+
+CPM ------------------------------
 https://cpm.org/
+CPM (College Preparatory Mathematics) is an organization that provides math curriculum to school departments.  They have opened a list of their resources to the public in response to COVID, but their business model seems to be centered around the sale of a host of resources to parents and students and curricula for institutions.  The free resources they uploaded are *not* licensed for redistribution.  I am not sure that we can use any of what they have.
+
+Discovery Education ---------------
 https://www.discoveryeducation.com/
+
+
 https://deltamath.com/
+
+FREE ONLINE MATH RESOURCES
+
+edX.org
+----------------------------------------
+Educational Range : College
+
+khanacademy.org
+----------------------------------------
+Educational Range : K - 12 - Early college
+Login Required : No
+Khan academy is probably the one that's been "in the game" the longest, when it comes to free online learning.  As a response to COVID, they've uploaded parent and teacher resources and daily schedules for kids 2-18.
+
+
+https://www.mathplanet.com/
+----------------------------------------
+Educational Range : High School Maths
+Login Required : No
+Mathplanet is a focused, free resource for learning US high school math.  
+
+https://schoolyourself.org/
+----------------------------------------
+Educational Range : Algebra through Calc and Stats
+Free platform for learning math
+
+https://alison.com/courses/math
+----------------------------------------
+Educational Range : College
+Login Required : yes
+Alison has coursework for a massive wealth of topics. They monetize by offering to sell cerificates and placing ads on the site. They also require adobe flash to work.  I am not confident in the value added here, and I think that other places will ask less and give more.
+
+https://www.onlinecourses.com/math/
+----------------------------------------
+Educational Range : College
+These guys seem to be stabbing at what we're trying to accomplish (aggregating a number of other resources).
+
+https://ocw.mit.edu/courses/mathematics/
+----------------------------------------
+This is MIT open courseware.  
