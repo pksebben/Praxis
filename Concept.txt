@@ -1,0 +1,116 @@
+PRAXIS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A template for self-directed learning and connecting learners.
+
+What I want to build here is a system to replace the core functions of school as it exists today.  This is recognizing that school performs, among many possible other functions, the following:
+
+1 - Provides a learning community
+This is perhaps the most important things that a modern school provides, at any level (high school, college, elementary).  It is also potentially one of the most difficult challenges inherent in a self-directed learning scheme.
+
+2- Creates curriculum
+This is important for the following reasons:
+a) Learners have tangible goals.  This not only gives a thing to reach for, but also grants the learner some positive dopamine feedback once achieved.  This emotional feedback is one of the more important parts of learning (Sugata Mitra).  It is also one of the places where schools fail frequently and with disasterous consequences (cynical teachers can create in students a propensity to *not learn*).
+b) The path to learning a topic is staged so that foundational knowledge is learned before knowledge that requires that foundational knowledge IOT make sense.  This prevents time-wasting and navel-gazing.
+c) Topics are provided for the learner to learn.  When self-directing this is currently a major problem; although there are resources out there to learn things, it is difficult for a learner to know what to study next.  Providing pathways to knowledge is a critical component of a holistic learning practice, and {{{one of the first things this projects seeks to solve.}}}
+
+3 - Provides learning resources and structure
+Here, I am talking about books and tests and classes and topics and such.  Access to the necessary resources is a critical component of learning.  It is my belief that by the appropriate aggregation resources competitive with what one typically gets in a school are available for free on the internet.  As for the structure, {{{a critical component of self-directed learning will be tools to help the learner self-impose structure, such as automated reminders and TODO lists, as well as templates for common learning techniques and self-assessment}}}
+
+4 - Grants Credentials
+This is probably the biggest motivator for people to go to traditional school.  It is my opinion that not only is this not a particularly important function for SDR to serve, but it is something that will work itself out if SDR is given enough time in the wild and is useful enough to be widely practiced.
+
+5 -Use of assessment tools which allow learners to self-assess rather than require another person. It feeds an emotional connection to learning when you know what you do and don't know. It's a disconnect when you have to wwait for someone else to tell you. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tentative goals of this project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 - to create a system that aggregates learning resources freely available and applies curriculum to those resources in such a way that they might replace the traditional method of learning things in a school
+
+2 - to create a system by which learners can become deeply connected with other learners that share these characteristics:
+a) Learning similar material
+b) Close to the same "competency band" of that material
+- note - this is one of those problems that needs close attention and perhaps a lot of experimentation and research to get 'right'.  One of the core problems with online forums and other methods of connecting students is that they tend to put everyone in the same box - people who are just starting out learning basic Python syntax find themselves on the same message boards as people discussing Kernel security and language design.  This demotivates the learners on the low end and wastes the time of those on the high end.  What we would ideally do is connect a learner with another learner that is {marginally ahead of them} and learners who are {marginally behind} so that the freshest lessons can be transmitted between learners struggling with the same challenges.
+
+3 - To craft these systems in such a way that they recurse
+What I mean is, there should be a feedback mechanism that allows learners to actively participate in the process of refining and developing these systems, allowing (hopefully) an exponential growth in the efficacy of the system as more learners 'buy in'
+
+-------------------------
+Preferable aspects of these systems
+-------------------------
+This should not cost a learner much more than the nominal amount required to have internet access and the most basic of materials.  Expensive textbooks are right out.
+
+As learners progress through this system, ideally, they would be producing material that helps others learn.  As one studies a topic, they should be able to contribute (as seamlessly as possible) to the development of the resources they use and the curricula that surrounds them.
+
+Cellularity.  This system should have components that are agnostic of any one tool or framework and should be portable to a plurality of contexts.
+
+Open-Source.  The basis for this system should be open for forking, development, 'bugfixing' and so on.
+
+It should create a language that allows ease-of-search and furthers it's own development by being clear, simple, and transparent.  The more quickly someone can grasp concepts that are core to this system's development, the more individuals will be able to contribute in a meaningful manner.
+
+It should make the most of the resources that are already available for SDR.  I'm talking here about stuff like Khan Academy, CodeAcademy, Udemy, MIT open courseware, etc.  It should be capable of identifying the shortcomings of these platforms and shoring up those shortcomings.
+
+It should provide learners with positive emotional feedback.  I am not certain how to best accomplish this but it has been identified as a necessary component to motivating a learner to learn.
+
+It should be built on a core set of unassailable principles that lay the foundations for a culture conducive to it's development and the furthering of the cause of making all learning free and open-source.  The culture that results from this endeavor should be motivated to maintain it's freedom from capitalism, hate, selfishness, cclassism, and any other social ills endemic to the problems modern society faces with itself.  When someone engages with this program, they should be fully equipped to face off with the worst of society and come out feeling good about themselves.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CORE PRINCIPLES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Open Source - We hold as a truth that information wants to be free, and that proprietary knowledge is antithetical to a vibrant and healthy society.
+
+Collaborative - It is a basic motivation behind this project that it is impossible to accomplish the greatest feats solo.  We seek to leverage our community to it's fullest by including all those who hold to these princ
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CATE'S FEEDBACK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Questions - curriculum is the intersection between content and materials. Instruction is the interaction between the curriculum and the learner. How does a system like this determine what content is important and also allow learners to consider how to branch out in ways that make the content relevant.
+
+ -- Many of the 'subsystems' that this will be built on do *some* of this (Khan academy and MIT open coursework, for example).  That said, one of the ways I want this to be helpful is to have sort of 'brackets' for learning modules, where you can see what's most adjacent to what you're learning now.  It's a bit of a tricky problem (requiring a lot of input and crafting to be useful), but I think if we build the system such that it 'motivates' towards a solution to this and doesn't try to perfectly deal with it out the gate, the solution can be both manageable to create and robust in implementation. I'm picturing something like this:
+ 
+ When learners are engaging with a module, they have an interface to connect that module with the other ones they're engaged with.  Or, alternatively, we track this automatically and whatever a student is learning gets connected with an edge graph to the other things that their learning (for every student that engages thusly, connections are strengthened and we can provide for any given module the "most adjacent" modules that have the st~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Tentative goals of this project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 - to create a system that aggregates learning resources freely available and applies curriculum to those resources in such a way that they might replace the traditional method of learning things in a school
+
+2 - to create a system by which learners can become deeply connected with other learners that share these characteristics:
+a) Learning similar material
+b) Close to the same "competency band" of that material
+- note - this is one of those problems that needs close attention and perhaps a lot of experimentation and research to get 'right'.  One of the core problems with online forums and other methods of connecting students is that they tend to put everyone in the same box - people who are just starting out learning basic Python syntax find themselves on the same message boards as people discussing Kernel security and language design.  This demotivates the learners on the low end and wastes the time of those on the high end.  What we would ideally do is connect a learner with another learner that is {marginally ahead of them} and learners who are {marginally behind} so that the freshest lessons can be transmitted between learners struggling with the same challenges.
+
+3 - To craft these systems in such a way that they recurse
+What I mean is, there should be a feedback mechanism that allows learners to actively participate in the process of refining and developing these systems, allowing (hopefully) an exponential growth in the efficacy of the system as more learners 'buy in'
+
+-------------------------
+Preferable aspects of these systems
+-------------------------
+This should not cost a learner much more than the nominal amount required to have internet access and the most basic of materials.  Expensive textbooks are right out.
+
+As learners progress through this system, ideally, they would be producing material that helps others learn.  As one studies a topic, they should be able to contribute (as seamlessly as possible) to the development of the resources they use and the curricula that surrounds them.
+
+Cellularity.  This system should have components that are agnostic of any one tool or framework and should be portable to a plurality of contexts.
+
+Open-Source.  The basis for this system should be open for forking, development, 'bugfixing' and so on.
+
+It should create a language that allows ease-of-search and furthers it's own development by being clear, simple, and transparent.  The more quickly someone can grasp concepts that are core to this system's development, the more individuals will be able to contribute in a meaningful manner.
+
+It should make the most of the resources that are already available for SDR.  I'm talking here about stuff like Khan Academy, CodeAcademy, Udemy, MIT open courseware, etc.  It should be capable of identifying the shortcomings of these platforms and shoring up those shortcomings.
+
+It should provide learners with positive emotional feedback.  I am not certain how to best accomplish this but it has been identified as a necessary component to motivating a learner to learn.
+
+It should be built on a core set of unassailable principles that lay the foundations for a culture conducive to it's development and the furthering of the cause of making all learning free and open-source.  The culture that results from this endeavor should be motivated to maintain it's freedom from capitalism, hate, selfishness, cclassism, and any other social ills endemic to the problems modern society faces with itself.  When someone engages with this program, they should be fully equipped to face off with the worst of society and come out feeling good about themselves.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CORE PRINCIPLES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Open Source - We hold as a truth that information wants to be free, and that proprietary knowledge is antithetical to a vibrant and healthy society.
+
+Collaborative - It is a basic motivation behind this project that it is impossible to accomplish the greatest feats solo.  We seek to leverage our community to it's fullest by including all those who hold to these princ
+rongest connections.  Kind of like what google does with sites that link to each other.)
+
+One of the strongest boosts to learning is specific, timely feedback from experts and/or mentors. How can we create the feedback loop as part of this process?
+
+ fucked up and accidentally deleted
