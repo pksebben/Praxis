@@ -24,3 +24,11 @@ It should be a cultural convention that we write good, accessible READMEs.  Espe
 
 0.00_BM-XX-XX_PYTHON
 
+# Notes on making breadcrumbs
+These notes are not meant to be rules for what a breadcrumb should be, rather, they are guidelines for making breadcrumbs effective and palatable.  These should be followed when making the initial breadcrumbs (and notes on what works / what doesn't should go here).
+
+1. Keep It Simple, Dumbass
+The less fluff the better.  Breadcrumbs are meant to aggregate and deirect, not define.  
+
+2. What you do have to write, write short and well
+The syntax of my initial test crumb kind of turned off initial test audiences.  Fix that shit.
