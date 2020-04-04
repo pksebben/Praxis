@@ -6,8 +6,9 @@ The very first thing you're going to want to do is equip yourself with a dart.  
 
 1. Make one yourself
 
-It's pretty easy.  Should take at most an hour and some frustration.
-https://www.youtube.com/watch?v=5mKYQi_6yRU
+   It's pretty easy.  Should take at most an hour and some frustration.
+   
+   https://www.youtube.com/watch?v=5mKYQi_6yRU
 
 2. Buy one
 
