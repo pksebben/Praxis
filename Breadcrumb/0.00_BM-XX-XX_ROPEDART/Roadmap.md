@@ -5,6 +5,7 @@ Greetings!  This roadmap is for those just starting out who want guidance on whe
 The very first thing you're going to want to do is equip yourself with a dart.  There are a few options:
 
 1. Make one yourself
+
 It's pretty easy.  Should take at most an hour and some frustration.
 https://www.youtube.com/watch?v=5mKYQi_6yRU
 
@@ -12,7 +13,9 @@ https://www.youtube.com/watch?v=5mKYQi_6yRU
 
    They're not too, too expensive.
    You can get them on amazon, or support the artists who handcraft them at one of these places:
+   
    https://dark-monk.com/Equipment/Rope-Dart
+   
    https://flowtoys.com/props/martial/dart
    
    1. Fire darts
