@@ -18,11 +18,35 @@ The format and structure of these breadcrumbs should be flexible enough to allow
 It should be a cultural convention that we write good, accessible READMEs.  Especially if the format and structure is going to be flexible.  We should try to make it a point of pride that anyone can pick up a breadcrumb, read the README, and make use of the crumb.
 
 
+# PROPERTIES
+Okay, so I have a new set of standards to apply, and work with.  Time to get thinking.
+
+1. Fractal
+So each breadcrumb should represent either a series of other breadcrumbs or an atomic piece of knowledge reference.  What this means is that for a large subject, a breadcrumb will reference and encapsulate other breadcrumbs, which will encapsulate more breadcrumbs, which eventually will become breadcrumbs regarding specific knowledge.  This is going to necessitate that breadcrumbs in general be incredibly lightweight, adding only what is absolutely necessary to the knowledge they reference.
+2. Maintainably Encapsulated
+Any given breadcrumb should be able to stand on it's own and be maintained agnostic of the crumbs above it in the heirarchy.  This means that if a breadcrumb is used in a scope and someone wants to make changes to it, they should require no knowledge of the encapsulating scope.
+3. Reusable
+A breadcrumb should be useful in a variety of larger scopes.  
+
+# RULES
+These rules are here to ensure that the properties above are maintained as part of the format.
+
+1. Strict and clear Scoping
+The scope of a crumb should be as clear as possible, and things in the crumb should adhere to that scoping in as strict a manner as possible.
+2. 'Waterfall' referencing
+This means that references to other crumbs only refer to 'downstream' crumbs.  A crumb should have no references to it's parent.  This is in order to maintain the reusability and encapsulation of the crumb.
+3. {{ we need a rule in here that restricts the amount of information that goes into a breadcrumb }}
+
+# What a breadcrumb is / does
+Breadcrumbs are assortments of references to learning resources, with a hierarchy of dependant knowledge.  Breadcrumbs exist to bridge the gap between learning resources so that you can efficiently teach yourself a subject using other people's work.
+
+# What a breadcrumb isn't / doesn't
+Breadcrumbs are not guides to learning a thing.  They do not provide any information beyond where you need to go to learn what and in what order you should be learning it.  They are not wikis or textbooks or blogs.  There are other structures that work for those much better.  
+
 # Naming Conventions Spitballing and Breakdown
-{Version number - where X.YY X=the number of breadcrumbers who have worked on this breadcrumb, zero indexed -and- YY is current revision }{Initials of original breadcrumber}{Initials of most recent breadcrumber}{Initials of current breadcrumber}{Topic, at the most specific scope that encapsulates the whole of the breadcrumb}
+{Bit that defines whether the crumb is atomic or compound}{Version number - where X.YY X=the number of breadcrumbers who have worked on this breadcrumb, zero indexed -and- YY is current revision }{Initials of original breadcrumber}{Initials of most recent breadcrumber}{Initials of current breadcrumber}{Topic, at the most specific scope that encapsulates the whole of the breadcrumb}
 
-
-0.00_BM-XX-XX_PYTHON
+C_0.00_BM-XX-XX_PYTHON
 
 # Notes on making breadcrumbs
 These notes are not meant to be rules for what a breadcrumb should be, rather, they are guidelines for making breadcrumbs effective and palatable.  These should be followed when making the initial breadcrumbs (and notes on what works / what doesn't should go here).
@@ -32,3 +56,12 @@ The less fluff the better.  Breadcrumbs are meant to aggregate and deirect, not 
 
 2. What you do have to write, write short and well
 The syntax of my initial test crumb kind of turned off initial test audiences.  Fix that shit.
+
+
+So in making the crumbs for firewalls and networking, the current format is fairly cumbersome.  I should reduce crumbs to a single file, and reduce the amount of information in each.
+
+One of the problems I'm coming up against is how to nest these crumbs appropriately.  I should devise some system by which this becomes easier.
+
+Is there a way to bubble sets of dependancies through these files?
+
+It is plain to me that part of what is going on in this schema is that I am turning myself into a filter for information.  This is not a bad thing, but keeping my eye on this aspect may reveal some novel ways to modify the system to be better.
