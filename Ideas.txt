@@ -2,4 +2,18 @@ IDEAS
 ---------------
 these are not fleshed out yet.  This is a place for spitballing.
 
+# ITERATION
+
 One of the most powerful concepts at the burn is that of iteration - tear it down, do it again, and again, and again.  How can we best incorporate this action into Praxis?
+
+# SELF_TEACHING METHODS
+
+The thought that is occurring to me as I go through the css module is this; setting up your environment is a key factor in good learning (can you do practicals without adding too much time and effort?  Is there a good place for your notes that you can come back to easily?  Can you simultaneously look at your notes, the guide you are reading, and your implementation of the practical all at once?)
+Praxis should have guides for this.
+Pomodoro might be a good technique to have a guide on.
+
+# Nomenclature
+
+We need specific terms for stuff.  Like the following:
+
+ XXXXX : The place where your knowledge puts you along the path to learning a thing.
